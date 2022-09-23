@@ -1,0 +1,29 @@
+{
+    "name": "restapi-nodejs-express-mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        
+        "start": "node .",
+        "babel-node": "babel-node --presets=@babel/preset-env",
+        "dev": "nodemon --exec npm run babel-node src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "mysql": "^2.18.1",
+        "promise-mysql": "^5.1.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.18.10",
+        "@babel/core": "^7.19.1",
+        "@babel/node": "^7.19.1",
+        "@babel/preset-env": "^7.19.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.20"
+    }
+}
